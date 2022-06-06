@@ -1,2 +1,3 @@
-class PetHistory < ApplicationRecord
+class Client < ApplicationRecord
+    has_many :pets
 end
